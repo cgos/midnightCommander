@@ -744,7 +744,7 @@ type/^Parity\ Archive\ Volume\ Set
 
 # Default target for anything not described above
 default/*
-	Open=
+	Open=%var{EDITOR:nvim} %f &
 	View=
 
 
